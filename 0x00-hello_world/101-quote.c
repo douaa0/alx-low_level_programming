@@ -6,6 +6,7 @@
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+char str[59] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+fwrite(str, sizeof(char), 59, stderr);
+return (1);
 }

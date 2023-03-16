@@ -1,4 +1,3 @@
-export CFILE=0-main.c ; ./0-preprocessor
 #include <stdio.h>
 
 /**

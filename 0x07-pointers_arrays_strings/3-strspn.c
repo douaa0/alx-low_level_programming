@@ -16,7 +16,8 @@ unsigned int _strspn(char *s, char *accept)
 		p = s;
 		while (*p != '\0' && *p != ' ')
 		{
-			if (*p == *ac){
+			if (*p == *ac)
+			{
 				counter++;
 			}
 			p++;

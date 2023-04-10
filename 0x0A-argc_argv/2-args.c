@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 int i,  a = argc;
 char **b = argv;
 if (b != NULL)
-	for (i = 0; i < b; i++)
+	for (i = 0; i < a; i++)
 	{
 		printf("%s\n", b[i]);
 	}

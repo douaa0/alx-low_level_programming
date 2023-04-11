@@ -2,17 +2,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * str_concat - function that
- * concatenates two strings
+ * str_concat - function that concatenates two strings
  * @s1: the first string
  * @s2: the second string
- * Return: pointer to new string
- * concatenate s1 and s2
+ * Return: pointer to new string concatenate s1 and s2
  */
 char *str_concat(char *s1, char *s2)
 {
 	unsigned int j, size1 = 0, size2 = 0;
 	char *str;
+
 	if (s1 != NULL)
 	for (size1 = 0; s1[size1] != '\0'; size1++)
 	{}

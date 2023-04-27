@@ -3,11 +3,11 @@
 
 /**
  * struct list_s - singly linked list
- * @str: string - the malloced string
+ * @str: string - malloced string
  * @len: length of the string
  * @next: points to the next node
- * Description: singly linked list 
- * node structure for the Holberton project
+ * Description: singly linked list node structure
+ * for Holberton project
  */
 typedef struct list_s
 {
